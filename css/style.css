@@ -265,6 +265,61 @@ h2.main-heading-about{
 
 
 /* teacher container */
+.teacher-pres{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #efefef;
+}
+.card-teacher{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background:#fff ;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card-teacher .head-t{
+  height: 125px;
+  width: 100%;
+  position: relative;
+}
+.card-teacher .head-t .circle{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #0b6f72;
+  bottom: 0;
+}
+.card-teacher .head-t img{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  bottom:-30%;
+  left:50%;
+  transform: translate(-50%);
+
+}
+.card-teacher .head-t img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+
+/*
+.teacher_section{
+  background: -webkit-linear-gradient(90deg, #b77cdd,#c75e89,#a45a4d);                       
+  background: linear-gradient(90deg, #b77cdd,#c75e89,#a45a4d);
+}
+
 .teacher_section .card {
   
   border-radius: solid 2px;
@@ -291,7 +346,7 @@ h2.main-heading-about{
   object-fit: cover;
   box-shadow:  0 0 10px rgba(0, 0, 0, 0.8);
 }
-
+*/
 
 /* end teacher container */
 
