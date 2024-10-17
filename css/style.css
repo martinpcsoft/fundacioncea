@@ -264,7 +264,7 @@ h2.main-heading-about{
 
 
 
-/* teacher container */
+/* teacher container 
 .teacher-pres{
   display: flex;
   align-items: center;
@@ -311,14 +311,14 @@ h2.main-heading-about{
   border-radius: 50%;
   object-fit: cover;
 
-}
+}*/
 
 
 
-.teacher_section{
-  background: -webkit-linear-gradient(90deg, #b77cdd,#c75e89,#a45a4d);                       
-  background: linear-gradient(90deg, #b77cdd,#c75e89,#a45a4d);
-}
+/*.teacher_section{
+  background: rgb(221,220,232);
+background: linear-gradient(90deg, rgba(221,220,232,1) 0%, rgba(172,172,182,1) 35%, rgba(124,131,133,1) 100%);
+}*/
 
 .teacher_section .card {
   
@@ -352,7 +352,9 @@ h2.main-heading-about{
 
 /* vehicle section */
 
-
+.container-blog{
+  background: #fff;
+}
 .vehicle_section{
   background: rgb(47,3,108);
   background: linear-gradient(90deg, rgba(47, 3, 108, 1) 0%, rgba(93, 10, 209, 0.9220063025210083) 100%, rgba(112, 136, 142, 0.0032387955182072714) 100%);
